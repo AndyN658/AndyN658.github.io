@@ -1,160 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <title>Grandmas Pasta Salad Recipe</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <!--Name:Andrew Nelson, Date:Nov 14, Period:6-->
-    <style>
-        body {
-            background-color: tan;
-            font-family: "Elms Sans", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: <weight>;
-            font-style: normal;
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        }
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-        h1 {
-            text-align: center;
-            color: white;
-            border: 3px solid white;
-            border-radius: 20px 20px 20px 20px;
-            background-color: rgb(194, 53, 53);
-            padding: 15px;
-        }
-
-        .ingrediants {
-            border: 4px solid white;
-            border-radius: 20px 20px 20px 20px;
-            max-width: 225px;
-            padding: 25px;
-            color: white;
-            background-color: green;
-            top: 15px;
-            position: relative;
-        }
-
-        .instructions1 {
-            border: 4px solid white;
-            border-radius: 20px 20px 20px 20px;
-            position: absolute;
-            padding: 25px;
-            left: 320px;
-            top: 460px;
-            margin: 25px;
-            min-height: 735px;
-            color: white;
-            background-color: rgb(0, 63, 0);
-        }
-
-        .history {
-            border: 6px solid white;
-            border-radius: 20px 20px 20px 20px;
-            padding: 20px;
-            max-width: 700px;
-            background-color: gold;
-        }
-
-        .pictures1 {
-            border: 6px solid white;
-            position: absolute;
-            top: 120px;
-            right: 60px;
-            border-radius: 20px 20px 20px 20px;
-        }
-
-        a {
-            color: white;
-        }
-    </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <title>Hello, world!</title>
 </head>
 
 <body>
-    <h1>Grandmas Homemade Pasta Salad</h1>
-    <div>
-        <div class="history">
-            <h2>History</h2>
-            <p>Pasta salad has always came in 2 ways: Italian pasta dishes and European cold salad dishes. <b><u>Cold
-                        pasta dishes have been in Italy since the Renissance.</u></b> This salad often included <b>oil,
-                    vinegar, and herbs.</b> The modern version of the pasta became popular in th US in the 20th century.
-                As pasta became more available, home cooks begain <b><u>mixing chilled noodles that were cooked with
-                        vegetables, dressings, and meats.</u></b>By the 60s and 70s pasta was popular at deli counters,
-                and mainly with the growth of <b>convenience foods and mayonnaise based salads like egg salad and pasta
-                    salads.</b> Today, pasta salad has many different types around the world, but its core idea, a
-                chilled pasta dish that has many flavors, <b>remains similar to the early Italian inspirations and
-                    American creativity.</b> </p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">HTML Recipe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobbies.html">My Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Travel.html">Travel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="school.html">School</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="video.html">My Video</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Recipe
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="finalrecipe.html">Bootstrap Recipe</a>
+                        <a class="dropdown-item" href="recipe3.html">CSS Recipe</a>
+                        <a class="dropdown-item" href="recipe.html">HTML Recipe</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="pictures1">
-            <img src="media/Tortellini-Pasta-Salad-8-scaled-11.jpg" alt="pasta salad" width="220" length="220">
-            <img src="media/pasta-salad-1200.jpg" alt="pasta salad" width="220" length="220">
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron">
+                    <h1 class="display-4">Homemade Pasta Salad</h1>
+                    <p class="lead">Pasta salad has always came in 2 ways: Italian pasta dishes and European cold salad
+                        dishes.
+                        <b><u>Cold pasta
+                                dishes have been in Italy since the Renissance.</u></b> This salad often included
+                        <b>oil,
+                            vinegar,
+                            and
+                            herbs.</b> The modern version of the pasta became popular in th US in the 20th century. As
+                        pasta
+                        became
+                        more
+                        available, home cooks begain <b><u>mixing chilled noodles that were cooked with vegetables,
+                                dressings, and
+                                meats.</u></b>By the 60s and 70s pasta was popular at deli counters, and mainly with the
+                        growth of
+                        <b>convenience foods and mayonnaise based salads like egg salad and pasta salads.</b> Today,
+                        pasta
+                        salad has
+                        many different types around the world, but its core idea, a chilled pasta dish that has many
+                        flavors,
+                        <b>remains
+                            similar to the early Italian inspirations and American creativity.</b>
+                    </p>
+                    <hr class="my-4">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="jumbotron">
+                    <h1 class="display-4">Ingrediants</h1>
+                    <ul>
+                        <li>1 pound of rontini pasta, uncooked</li>
+                        <li>8 ounces of fresh mozzerella cheese pearls
+                            <!--chopped into peices if you cant find pearls-->
+                        </li>
+                        <li>8 ounces of salami and pepperoni</li>
+                        <li>6 ounces black olives pitted, sliced in halves</li>
+                        <li>1/2 red onion, diced</li>
+                        <li>1 1/2 cups of cherry tomatos in halves</li>
+                        <li>2 tablespoons chopped parsly</li>
+                        <li>1/2 cup of freshly grated parmesan cheese</li>
+                    </ul>
+                    <h2>Italian Salad Dressing</h2>
+                    <ul>
+                        <li>3/4 cup olive oil</li>
+                        <li>1/4 red wine vinegar</li>
+                        <li>2 teaspoons dried parsley flakes</li>
+                        <li>2 teaspoons lemon juice</li>
+                        <li>1 teaspoon dried basil</li>
+                        <li>1 teaspoon garlic salt</li>
+                        <li>1 teaspoon granulated sugar</li>
+                        <li>1/4 teaspoon ground black pepper</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1 class="display-4">Instructions</h1>
+                    <ul class="list-group">
+                        <li class="list-group-item" aria-current="true">1. Make the salad dressing by combining all ingrediants into a bowl or cup.</li>
+                        <li class="list-group-item">2. Cook Pasta for 7-12 minutes. Drain the pasta and then rinse the pasta with cold water. Allow it to cool for 25 minutes. </li>
+                        <li class="list-group-item">3. Combine: add pasta to a large bowl and pour half of the salad dressing over it. Toss to combine. Add remaining ingrredients and dress and toss everything to combine</li>
+                        <li class="list-group-item">4. Refridgerate:Cover and Refridgerate for 1 hour or long, before serving.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-    <div>
-        <div class="ingrediants">
-            <h2>Ingrediants</h2>
-            <ul>
-                <li>1 pound of rontini pasta, uncooked</li>
-                <li>8 ounces of fresh mozzerella cheese pearls <!--chopped into peices if you cant find pearls--></li>
-                <li>8 ounces of salami and pepperoni</li>
-                <li>6 ounces black olives pitted, sliced in halves</li>
-                <li>1/2 red onion, diced</li>
-                <li>1 1/2 cups of cherry tomatos in halves</li>
-                <li>2 tablespoons chopped parsly</li>
-                <li>1/2 cup of freshly grated parmesan cheese</li>
-            </ul>
-            <h2>Italian Salad Dressing</h2>
-            <ul>
-                <li>3/4 cup olive oil</li>
-                <li>1/4 red wine vinegar</li>
-                <li>2 teaspoons dried parsley flakes</li>
-                <li>2 teaspoons lemon juice</li>
-                <li>1 teaspoon dried basil</li>
-                <li>1 teaspoon garlic salt</li>
-                <li>1 teaspoon granulated sugar</li>
-                <li>1/4 teaspoon ground black pepper</li>
-            </ul>
-        </div>
-        <div class="instructions1">
-            <h2>Instructions</h2>
-            <h4>1. Make the salad dressing by combining all ingrediants into a bowl or cup.</h4>
-            <ol>
-                <li>3/4 cup olive oil</li>
-                <li>1/4 cup red wine vinegar</li>
-                <li>2 teaspoons dried parsley flakes</li>
-                <li>2 teaspoons lemon juice</li>
-                <li>1 teaspoon dried basil</li>
-                <li>1 teaspoon garlic salt</li>
-                <li>1 teaspoon granulated sugar</li>
-                <li>1/4 teaspoon ground black pepper</li>
-            </ol>
-            <h4>2. Cook Pasta for 7-12 minutes. Drain the pasta and then rinse the pasta with cold water. Allow it to
-                cool for 25 minutes. </h4>
-            <h4>3. Combine: add pasta to a large bowl and pour half of the salad dressing over it. Toss to combine. Add
-                remaining ingrredients and dress and toss everything to combine. </h4>
-            <ul>
-                <li>1 pound of rontini pasta, uncooked</li>
-                <li>8 ounces of fresh mozzerella cheese pearls </li>
-                <li>8 ounces of salami and pepperoni</li>
-                <li>6 ounces black olives pitted, sliced in halves</li>
-                <li>1/2 red onion, diced</li>
-                <li>1 1/2 cups of cherry tomatos in halves</li>
-                <li>2 tablespoons chopped parsly</li>
-                <li>1/2 cup of freshly grated parmesan cheese</li>
-            </ul>
-            <h4>4. Refridgerate:Cover and Refridgerate for 1 hour or long, before serving.</h4>
-            <h3>Sources</h3>
-            <a href="https://en.wikipedia.org/wiki/Pasta_salad"
-                target="_blank">https://en.wikipedia.org/wiki/Pasta_salad</a>
-            <h3>Pasta Salad Video</h3>
-            <a href="https://www.youtube.com/watch?v=WtXvZ79BFJc"
-                target="_blank">https://www.youtube.com/watch?v=WtXvZ79BFJc</a>
-        </div>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
     </div>
 </body>
 
